@@ -1,6 +1,6 @@
 ---
 - name: This playbook tests AAP fuctions
-  hosts: localhost
+  hosts: myhost
   gather_facts: false
   tasks:
     - name: 
