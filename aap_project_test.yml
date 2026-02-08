@@ -1,0 +1,8 @@
+---
+- name: This playbook tests AAP fuctions
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: 
+      ansible.builtin.command: tree /runner
+      
