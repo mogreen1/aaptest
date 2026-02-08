@@ -4,5 +4,4 @@
   gather_facts: false
   tasks:
     - name: 
-      ansible.builtin.command: tree /runner
-      
+      ansible.builtin.command: cat /runner/inventory/hosts
