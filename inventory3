@@ -1,10 +1,11 @@
 ---
 all:
-  ungrouped:
-    hosts:
-      localhost3:
-  servers:
-    hosts:
-      server3:
-        ansible_host: 3.3.3.3
-        ansible_user: ec2-user
+  children:
+    ungrouped:
+      hosts:
+        localhost3:
+    servers:
+      hosts:
+        server3:
+          ansible_host: 3.3.3.3
+          ansible_user: ec2-user
