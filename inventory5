@@ -3,10 +3,10 @@ all:
   children:
     ungrouped:
       hosts:
-        localhost3:
+        localhost5:
           ansible_connection: local
     servers:
       hosts:
-        server3:
-          ansible_host: 3.3.3.3
+        server5:
+          ansible_host: 5.5.5.5
           ansible_user: ec2-user

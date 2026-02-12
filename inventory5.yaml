@@ -1,9 +1,0 @@
----
-all:
-  
-  children:
-    servers:
-      hosts:
-        serverx:
-          ansible_host: 10.2.0.143
-          ansible_user: ec2-user
