@@ -1,10 +1,8 @@
 ---
 all:
-
   ungrouped:
     hosts:
-      localhost3
-  
+      localhost3:
   servers:
     hosts:
       server3:
