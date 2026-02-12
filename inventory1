@@ -1,12 +1,7 @@
-localhost
+localhost1
 
 [servers]
-serverx ansible_hosts=10.2.0.50
-servera
-serverb
-
-[cisco]
-rtr1 ansible_host=10.0.5.55
+server1 ansible_hosts=1.1.1.1
 
 [cisco:vars]
 ansible_user=ec2-user
